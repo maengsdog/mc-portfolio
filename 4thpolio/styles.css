@@ -171,7 +171,7 @@ img {
 }
 
 /*=============== CUSTOM CURSOR ===============*/
-.cursor{
+/* .cursor{
   position: fixed;
   left: 0;
   top: 0;
@@ -184,6 +184,21 @@ img {
   mix-blend-mode: difference;
   pointer-events: none;
   transition: none;
+} */
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  background-color: var(--first-color-light);
+  border-radius: 50%;
+  box-shadow: 0 0 30px var(--first-color);
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: transform 0.2s ease-out, width 0.3s ease-out, height 0.3s ease-out, opacity 0.3s ease-out;
 }
 
 
