@@ -35,10 +35,10 @@ const swiperProject = new Swiper('.projects__swiper', {
     clickable: true,
   },
 
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // }
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 })
 /*=============== WORK TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
